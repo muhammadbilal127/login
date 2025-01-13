@@ -1,0 +1,240 @@
+body{
+    background-color: lightgrey;
+}
+
+
+
+.container {
+    display: flex;
+    text-align: center;
+    margin-left: 120px;
+    border: 1px solid transparent;
+    border-radius: 18px;
+
+}
+.saylani-login {
+    background-color: #002062;
+    width: 400px;
+    height: 780px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.logo {
+    position: relative;
+    right: 190px;
+    height: 20px;
+    width: 10%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+
+h2 {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+ 
+
+
+ 
+.email {
+    width: 250px;
+    height: 40px;
+    background-color: #0F2D6B;
+    margin-left: 20px;
+    padding-left: 0px;
+    align-items: center;
+    display: flex;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.into {
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.placeholder {
+    background-color: #0F2D6B;
+    border:none;
+    height: 30px;
+    width: 290px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.placeholder:focus {
+    border: none;
+    outline: none;
+}
+
+
+.placeholder::placeholder {
+    color: #9B9B9B;
+}
+
+
+
+.ice{
+    margin-right: 10px;
+}
+
+ 
+
+
+
+.forget-passsword{
+    position: relative;
+    right: 500px;
+}
+
+
+a{
+    margin-top: 5px;
+    margin-left: 130px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content{
+    margin-right: 150px;
+}
+
+
+
+
+
+.sign-in{
+width: 250px;
+height: 50px;
+font-size: 30px;
+color: white;
+background-color:#4671C6;
+border-radius: 15px;
+border: 1px solid #4671C6;
+margin-left: 120px;
+}
+
+
+
+.sections{
+display: flex;
+align-items: center;
+    margin-left: 150px;
+    
+
+}
+
+.borders{
+   border: 1px solid #474A51;
+    width: 110px;
+    height: 0px;
+margin-right: 20px;
+    
+}
+
+
+.borders-1{
+    border: 1px solid #474A51;
+     width: 100px;
+     height: 0px;
+     margin-left: 20px;
+     
+ }
+
+.or{
+    font-size: 10px;
+    color:gray;
+    font-family: sans-serif;
+}
+
+
+
+
+.google{
+    width: 250px;
+    height: 39px;
+    background-color: #0F2D6B;
+    align-items: center;
+    display: flex;
+    margin-left: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.google-logo{
+    margin-left: 40px;
+}
+
+.facebook{
+    width: 250px;
+    height: 39px;
+    background-color: #0F2D6B;
+    align-items: center;
+    display: flex;
+    margin-left: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.facebook-logo{
+    margin-left: 40px;
+}
+
+.apple{
+    width: 250px;
+    height: 39px;
+    background-color: #0F2D6B;
+    align-items: center;
+    display: flex;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+.apple-logo{
+    margin-left: 40px;
+}
+
+span{
+    color: gray;
+    margin-left: 10px;
+}
+
+.last-div{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.p{
+    margin-right: 0px;
+    color: darkblue;
+    font-size: 15px;
+}
+
+.p-1{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.image{
+    position: relative;
+    right: 58px;
+    top: 3px;
+    
+}
