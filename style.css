@@ -123,35 +123,18 @@ a{
 }
 
 
-.sign{
-    width: 250px;
-    height: 35px;
-    background-color: #1A4FBA;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-    overflow: hidden;
-    color: white;
-    padding-top: 10px;
-    border: none;
-    font-family: sans-serif;
-    margin-left: 150px;
-}
 
-.sign:hover{
-    outline: 2px solid #4771C6; ;
-}
-
-
-.sign-up{
-    width: 225px;
+.but button {
     height: 30px;
-    background-color: #1A4FBA;
-    border: none;
+    width: 250px;
+    color: white;
+    background-color: #1a4fba;
     outline: none;
-    display: none;
-    
+    border: none;
+    border-radius: 8px;
+    margin-left: 120px;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 

@@ -1,14 +1,17 @@
 
-var loginButton =document.getElementById("loginButton")
+var button =document.getElementById('button')
 
-function saylaniLogInPage(){
-   
-var  userEmail =document.getElementById("email").Value;
-var  userPassword = document.getElementById("password").value;
+function userLogin(){
+var  userEmail =document.getElementById("email").value;
+
+var  userPassword =document.getElementById("password").value;
 
     if (userEmail === "test@example.com" && userPassword ==="123456"){
-        alert ("login successful")}
-       else {alert ("invalid email or password")
+       
+        alert ("login successful")
+        
+    }else {
+        alert ("invalid email or password")
        }
 }
-loginButton.addEventListener("click" , "saylaniLogInPage")
+button.addEventListener("click" , userLogin)
