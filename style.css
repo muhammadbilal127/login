@@ -248,28 +248,3 @@ span{
     top: 3px;
 }
 
-
-@media screen and (max-width: 700px) {
-    .saylanilogin {
-           min-width: 600px;
-           height: 700px;
-           border: none;
-           display: flex;
-           overflow: hidden;
-           justify-content: space-between;
-           margin: 0px auto;
-       }
-   
-       .container{
-           margin: 0px;
-       }
-   
-       body {
-           max-width: 1000px;
-       }
-   
-       .image {
-           display:none;
-       }
-   
-   }
