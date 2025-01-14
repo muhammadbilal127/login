@@ -1,15 +1,14 @@
 
-var  userEmail =document.getElementById("email").Value;
-var  userpassword = document.getElementById("password");
-
-var userbutton =document.getElementById("login-button")
+var loginButton =document.getElementById("loginButton")
 
 function saylaniLogInPage(){
    
-    if (useremail === "test@email.com" && userpassword ==="123456"){
-        console.log ("login successful")}
-       else {console.log
-       ("invalid email or password")
+var  userEmail =document.getElementById("email").Value;
+var  userPassword = document.getElementById("password").value;
+
+    if (userEmail === "test@example.com" && userPassword ==="123456"){
+        alert ("login successful")}
+       else {alert ("invalid email or password")
        }
 }
-userbutton.addEventListener("click" , "saylaniLogInPage")
+loginButton.addEventListener("click" , "saylaniLogInPage")
